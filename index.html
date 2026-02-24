@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Profile - Introduction to HTML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+            background: #f9f9f9;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ddd;
+        }
+        img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <img src="https://randomuser.me/api/portraits/men/59.jpg" alt="Profile Photo">
+        <h1>John Doe</h1>
+        <h2>About Me</h2>
+        <p>Hello! I am John Doe, a passionate web developer learning the basics of HTML. I love building websites and exploring new web technologies.</p>
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Coding</li>
+            <li>Traveling</li>
+            <li>Cooking</li>
+            <li>Photography</li>
+        </ul>
+    </div>
 </body>
 </html>
